@@ -26,30 +26,12 @@ Además:
 
 ## 📂 **Estructura del Repositorio**
 
-household_power_consumption/
-│
-├── 📂 data/
-│   └── 📄 household_power_consumption.csv
-│
-├── 📂 docs/
-│   ├── 🌐 HouseHold_Power_Consumption.html
-│   └── 📕 HouseHold_Power_Consumption.pdf
-│
-├── 📂 images/
-│   ├── 📊 analisis_descriptivo_general.png
-│   ├── 📅 consumo_por_dia_semana.png
-│   ├── 🌡️ consumo_por_estacion.png
-│   ├── 🕐 consumo_por_hora.png
-│   ├── 🔥 consumo_promedio_hora_dia_heatmap.png
-│   ├── 🔌 desglose_consumo_por_circuito.png
-│   ├── 📈 evolucion_consumo_diario.png
-│   ├── 📉 evolucion_consumo_mensual.png
-│   └── ⚡ patrones_consumo_electrico_diario.png
-│
-├── 📂 notebook/
-│   └── 📓 HouseHold_Power_Consumption.ipynb
-│
-├
+* **`data/`** - Contiene el dataset original con mediciones de consumo eléctrico
+* **`docs/`** - Reportes exportados en HTML y PDF
+* **`images/`** - Visualizaciones y gráficos generados durante el análisis
+* **`notebook/`** - Jupyter Notebook con el código y análisis completo
+* **`requirements.txt`** - Dependencias del proyecto
+* **`README.md`** - Documentación del proyecto
 ---
 
 # 🔍 **Etapas del Análisis**
