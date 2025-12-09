@@ -8827,6 +8827,13 @@ nuestro 0objetivo es identificar patrones, tendencias y posibles anomalías en l
 💡 Interpretación: El hogar consume en promedio 1.11 kW,
    equivalente a 1-2 electrodomésticos medianos encendidos constantemente.
    El 50% del tiempo consume menos de 0.55 kW.
+
+🔹 Mediana: 0.5500 kW
+🔹 Desviación estándar: 1.1295 kW
+
+💡 Interpretación: El hogar consume en promedio 1.11 kW,
+   equivalente a 1-2 electrodomésticos medianos encendidos constantemente.
+   El 50% del tiempo consume menos de 0.55 kW.
 </pre>
 </div>
 </div>
@@ -10090,6 +10097,26 @@ Contribución de cada circuito a las 21:00h:
    → 10:00h: Sub2, Sub3 activos simultáneamente
    → 11:00h: Sub1, Sub2, Sub3 activos simultáneamente
    → 12:00h: Sub1, Sub2, Sub3 activos simultáneamente
+
+🔍 PREGUNTA 3: ¿Hay superposición que genera picos de demanda total?
+----------------------------------------------------------------------
+
+📈 Hora de MAYOR consumo total: 21:00h (33.23 Wh)
+
+Contribución de cada circuito a las 21:00h:
+  • Sub_metering_1 (Cocina)         :   2.88 Wh ( 8.65%)
+  • Sub_metering_2 (Lavandería)     :   2.32 Wh ( 6.98%)
+  • Sub_metering_3 (Calentador/AC)  :   7.57 Wh (22.78%)
+  • Other_consumption (Otros)       :  20.47 Wh (61.59%)
+
+💡 ANÁLISIS DE SUPERPOSICIÓN:
+
+⚠️ Se detectaron 12 horas con superposición significativa:
+   → 8:00h: Sub1, Sub3 activos simultáneamente
+   → 9:00h: Sub1, Sub3 activos simultáneamente
+   → 10:00h: Sub2, Sub3 activos simultáneamente
+   → 11:00h: Sub1, Sub2, Sub3 activos simultáneamente
+   → 12:00h: Sub1, Sub2, Sub3 activos simultáneamente
 </pre>
 </div>
 </div>
@@ -10248,6 +10275,21 @@ Evitar actividades intensivas durante la noche puede reducir costos energéticos
 <p><strong>Conclusión:</strong><br/>
 La mayor oportunidad de ahorro se encuentra en controlar el calentador, reducir consumos en standby y desplazar actividades energéticas fuera del horario nocturno.</p>
 <hr/>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=78f48079">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [38]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Exportar tu DataFrame limpio</span>
+<span class="n">df_house_clean</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'../data/data_clean_for_powerbi.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>
