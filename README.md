@@ -26,30 +26,30 @@ Además:
 
 ## 📂 **Estructura del Repositorio**
 
-├── data/
-│ └── household_power_consumption.csv
+household_power_consumption/
 │
-├── docs/
-│ ├── HouseHold_Power_Consumption.html
-│ └── HouseHold_Power_Consumption.pdf
+├── 📂 data/
+│   └── 📄 household_power_consumption.csv
 │
-├── images/
-│ ├── analisis_descriptivo_general.png
-│ ├── consumo_por_dia_semana.png
-│ ├── consumo_por_estacion.png
-│ ├── consumo_por_hora.png
-│ ├── consumo_promedio_hora_dia_heatmap.png
-│ ├── desglose_consumo_por_circuito.png
-│ ├── evolucion_consumo_diario.png
-│ ├── evolucion_consumo_mensual.png
-│ └── patrones_consumo_electrico_diario.png
+├── 📂 docs/
+│   ├── 🌐 HouseHold_Power_Consumption.html
+│   └── 📕 HouseHold_Power_Consumption.pdf
 │
-├── notebook/
-│ └── HouseHold_Power_Consumption.ipynb
+├── 📂 images/
+│   ├── 📊 analisis_descriptivo_general.png
+│   ├── 📅 consumo_por_dia_semana.png
+│   ├── 🌡️ consumo_por_estacion.png
+│   ├── 🕐 consumo_por_hora.png
+│   ├── 🔥 consumo_promedio_hora_dia_heatmap.png
+│   ├── 🔌 desglose_consumo_por_circuito.png
+│   ├── 📈 evolucion_consumo_diario.png
+│   ├── 📉 evolucion_consumo_mensual.png
+│   └── ⚡ patrones_consumo_electrico_diario.png
 │
-├── requirements.txt
-└── README.md
-
+├── 📂 notebook/
+│   └── 📓 HouseHold_Power_Consumption.ipynb
+│
+├
 ---
 
 # 🔍 **Etapas del Análisis**
